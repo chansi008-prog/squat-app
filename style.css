@@ -1,0 +1,51 @@
+*{box-sizing:border-box;margin:0;-webkit-tap-highlight-color:transparent}
+html{color-scheme:light}
+body{font-family:Pretendard,-apple-system,"Apple SD Gothic Neo",sans-serif;background:linear-gradient(180deg,#fff6f0,#ffeef3 60%,#fff6f0);background-attachment:fixed;color:#3b2f2f;min-height:100vh;-webkit-font-smoothing:antialiased}
+button{font-family:inherit;cursor:pointer}
+main{max-width:480px;margin:0 auto;padding:calc(env(safe-area-inset-top) + 18px) 16px calc(env(safe-area-inset-bottom) + 28px)}
+.hd{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
+.hd h1{font-size:27px;font-weight:900;letter-spacing:-.5px}
+.hd .date{font-size:14px;font-weight:700;opacity:.6}
+.card{background:#fff;border-radius:22px;padding:18px;box-shadow:0 6px 24px rgba(255,110,140,.12);margin-bottom:14px}
+.hero{display:flex;align-items:center;gap:12px}
+.hero svg{width:96px;height:auto;flex:none}
+.hero .t{font-size:15px;font-weight:700;opacity:.7}
+.hero .n{font-size:30px;font-weight:900;margin-top:2px}
+.hero .n small{font-size:16px;font-weight:800;opacity:.7}
+.hero .ok{display:inline-block;margin-top:6px;font-size:13px;font-weight:800;color:#fff;background:#2ecc71;border-radius:999px;padding:4px 10px}
+.go{width:100%;border:0;border-radius:18px;padding:17px;font-size:19px;font-weight:900;color:#fff;background:linear-gradient(90deg,#ff7aa2,#ffb04a);box-shadow:0 6px 18px rgba(255,122,162,.35);margin-top:14px}
+.go small{font-size:14px;font-weight:700;opacity:.9}
+.go:active{transform:scale(.98)}
+.h{font-size:16px;font-weight:900;margin-bottom:10px}
+.opt{display:flex;align-items:center;gap:8px;margin-top:10px}
+.opt>span{width:44px;flex:none;font-size:14px;font-weight:800;opacity:.75}
+.seg{display:flex;flex:1;gap:6px}
+.seg button{flex:1;min-width:0;padding:10px 0;border-radius:12px;border:2px solid #f1e4e4;background:#fff;color:inherit;font-size:15px;font-weight:800}
+.seg button.on{background:#2ecc71;border-color:#2ecc71;color:#fff}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.stats div{background:#fff7f2;border-radius:14px;padding:12px 6px;text-align:center}
+.stats b{display:block;font-size:22px;font-weight:900}
+.stats span{font-size:12.5px;font-weight:700;opacity:.65}
+.cal-hd{display:flex;align-items:center;justify-content:space-between;margin:14px 0 8px}
+.cal-hd b{font-size:16px;font-weight:900}
+.cal-hd button{border:0;background:#fff3ee;border-radius:10px;width:36px;height:32px;font-size:16px;font-weight:900;color:inherit}
+.cal-hd button:disabled{opacity:.3}
+.cal{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;text-align:center}
+.cal .w{font-size:12px;font-weight:800;opacity:.5;padding:2px 0}
+.cal .w.sun{color:#e5484d;opacity:.8}
+.cal .d{aspect-ratio:1;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;border:0;background:none;color:inherit;padding:0}
+.cal .d.part{background:#d6f5e3}
+.cal .d.full{background:#2ecc71;color:#fff;font-weight:900}
+.cal .d.today{box-shadow:inset 0 0 0 2px #ff7aa2}
+.cal .d.fut{opacity:.3}
+.day-info{min-height:20px;text-align:center;font-size:13.5px;font-weight:700;opacity:.75;margin-top:10px}
+.legend{display:flex;gap:14px;justify-content:center;font-size:12px;font-weight:700;opacity:.65;margin-top:8px}
+.legend i{display:inline-block;width:11px;height:11px;border-radius:50%;vertical-align:-1px;margin-right:4px}
+.foot{text-align:center;font-size:12px;opacity:.5;line-height:1.6;margin-top:6px}
+.foot button{border:0;background:none;color:inherit;text-decoration:underline;font-size:12px;font-weight:700}
+.sheet-bg{position:fixed;inset:0;background:rgba(0,0,0,.35);display:flex;align-items:flex-end;justify-content:center;z-index:60}
+.sheet{background:#fff;width:100%;max-width:480px;border-radius:22px 22px 0 0;padding:20px 18px calc(env(safe-area-inset-bottom) + 20px)}
+.sheet p{font-size:15px;line-height:1.6;margin-bottom:14px}
+.sheet .row{display:flex;gap:8px}
+.sheet .row button{flex:1;padding:14px;border-radius:14px;border:0;font-size:16px;font-weight:900;background:#f3eeee;color:inherit}
+.sheet .row button.red{background:#e5484d;color:#fff}
